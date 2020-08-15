@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from 'react-icons/fa';
+
+import Home from 'components/pages/Home';
+import ThemeProvider from 'styles/ThemeProvider';
+import GlobalStyle from 'styles/GlobalStyle';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+	return (
+		<ThemeProvider>
+			<GlobalStyle />
+			<Home />
+		</ThemeProvider>
   );
-}
+};
 
 export default App;
+
+
+
