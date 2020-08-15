@@ -3,6 +3,7 @@ import { text } from '@storybook/addon-knobs';
 
 import Hero from '../components/Hero';
 import Heading from '../components/Heading';
+import Button from 'components/Button';
 import automotive1280 from '../stories/assets/automotive-1280.jpg';
 import automotive1920 from '../stories/assets/automotive-1920.jpg';
 import highway1280 from '../stories/assets/highway-1280.jpg';
@@ -28,6 +29,6 @@ export const usage = () => (
 			<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
 			<li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
 		</ul>
-		<button>Matricule-se agora</button>
+		<Button color="primary" variant="outlined">Matricule-se agora</Button>
 	</Hero>
 );
