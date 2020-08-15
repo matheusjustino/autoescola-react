@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { actions } from '@storybook/addon-actions';
 
-import Button from '../components/Button';
+import Button from 'components/atoms/Button';
 
 export default {
-	title: 'Components/Button',
+	title: 'Components/Atoms/Button',
 	component: Button
 };
 
