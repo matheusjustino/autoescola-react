@@ -1,5 +1,5 @@
 import React from 'react';
-import { text } from '@storybook/addon-knobs';
+//import { text } from '@storybook/addon-knobs';
 
 import Hero from '../components/Hero';
 import Heading from '../components/Heading';
@@ -18,10 +18,9 @@ export const usage = () => (
 	<Hero image={highway1920}>
 		<Heading>
 			<h1>
-				{text('Title', 'Ganhe sua liberdade para ir e vir.')}
-				{/* {Ganhe sua <strong>liberdade</strong>
+				Ganhe sua <strong>liberdade</strong>
 				<br/>
-				para ir e vir.} */}
+				para ir e vir.
 			</h1>
 		</Heading>
 		<ul>
