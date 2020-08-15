@@ -1,48 +1,61 @@
 {
-  "name": "autoescola",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@storybook/addon-actions": "^6.0.2",
-    "@storybook/addon-essentials": "^6.0.2",
-    "@storybook/addon-links": "^6.0.2",
-    "@storybook/node-logger": "^6.0.2",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^6.0.2",
-    "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
-  }
+    "name": "autoescola",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@storybook/addon-docs": "^6.0.5",
+        "@storybook/addon-knobs": "^6.0.7",
+        "@storybook/addon-viewport": "^6.0.5",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "jest-styled-components": "^7.0.2",
+        "prettier": "^2.0.5",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.2",
+        "styled-components": "^5.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "test:coverage": "react-scripts test --coverage --watchAll=false",
+        "eject": "react-scripts eject",
+        "storybook": "start-storybook -p 6006 -s public",
+        "build-storybook": "build-storybook -s public"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.js",
+            "!src/**/*.stories.js"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@storybook/addon-actions": "^6.0.2",
+        "@storybook/addon-essentials": "^6.0.2",
+        "@storybook/addon-links": "^6.0.2",
+        "@storybook/node-logger": "^6.0.2",
+        "@storybook/preset-create-react-app": "^3.1.4",
+        "@storybook/react": "^6.0.2",
+        "babel-loader": "^8.1.0",
+        "react-is": "^16.13.1"
+    }
 }
