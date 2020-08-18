@@ -22,3 +22,7 @@ outros temas e usá-los como tema da aplicação. Para alterar o tema da aplica�
 é necessário passar o nome do tema dentro da propriedade `theme` do
 ThemeProvider (`<ThemeProvider theme="ocean" />`) em `App.js` ou alterar o
 `ThemeProvider.defaultProps` em ThemeProvider.
+
+### Aplicação
+
+![Aplicação](./src/assets/screenshot_app_fullsize.png)
