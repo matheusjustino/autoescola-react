@@ -1,3 +1,7 @@
+# Introdução
+
+Frontend de uma _Autoescola_ feito em **React**.
+
 ## Sites úteis
 
 -   storybook: https://storybook.js.org/docs/react/get-started/install
@@ -5,10 +9,10 @@
 
 ### Comandos
 
--   documentação: npm run storybook
--   aplicação react: npm start
--   teste: npm run test
--   cobertura: npm run test:coverage
+-   **documentação**: `npm run storybook`
+-   **aplicação react**: `npm start`
+-   **teste**: `npm run test`
+-   **cobertura**: `npm run test:coverage`
 
 ### Temas
 
